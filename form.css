@@ -1,0 +1,71 @@
+.login-form {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height:100vh;
+    width: 100%;
+    background: white;
+
+    z-index: 106;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease;
+}
+
+.login-form form {
+    max-width:300px ;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    text-align: center;
+    row-gap: 1rem;
+    padding: 10px;
+    justify-content: center;
+    
+
+}
+.login-form form h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #004D00;
+    text-decoration: underline;
+}
+.login-form form input {
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 0.9rem;
+    padding: 14px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+
+}
+.login-form form input::placeholder {
+    font-size: 0.9rem;
+    font-weight: 400;
+
+}
+.login-form a {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: black;
+    text-align: right;
+
+}
+.login-form a:hover {
+    color:#C96868 ;
+}
+.login-form form .btn {
+    border: none;
+    background: #C96868;
+    width: 400px;
+    margin:0 70px;
+    font-size: 16px;
+    font-weight: bold;
+    color: aliceblue;
+}
+.login-form form .btn:hover {
+    background:#004D00 ;
+}
